@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.menubar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(5, 5, 71);
+}
+
+.image {
+  width: 80px;
+}
+
+img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 50px;
+  list-style-type: none;
+}
+
+.navbar a {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  margin-right: 50px;
+  border-radius: 25px;
+  background-color: turquoise;
+  font-size: 20px;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+}
